@@ -1,0 +1,146 @@
+.minus,
+.quanti,
+.plus,
+.name,
+.price {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Table Cart */
+.table-cart {
+  padding: 30px 0;
+}
+
+.table-cart .links a,
+.table-cart .links span {
+  color: #777777;
+  font-size: 14px;
+}
+
+.table-cart .links a:hover {
+  color: #f66249;
+}
+
+.table-cart .title-cart {
+  color: #333;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 25px 0;
+}
+
+/* Table Grid */
+.bd {
+  line-height: 108px;
+}
+
+.table-cart .grid {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  color: #717171;
+}
+
+.items {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #e1e1e1;
+}
+
+.table-cart .table a {
+  color: #717171;
+}
+
+.table-cart .table .quanti {
+  padding: 0 10px;
+}
+
+.table-cart .icons-remove::before {
+  background: #f66249;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.table-cart img {
+  width: 90px;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.table-cart .fr {
+  background-color: #25262b;
+  padding: 12px 0;
+  border-right: 1px solid #e1e1e1;
+  color: #e5e5e5;
+}
+
+.table-cart .coupon-code {
+  height: 100%;
+  justify-content: space-between;
+  padding: 15px 40px;
+  border: 1px solid #e1e1e1;
+}
+
+.table-cart .btn {
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.table-cart .coupon {
+  padding: 10px 0;
+}
+
+/* Total */
+.total {
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.total .grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.total .box .grid {
+  grid-template-columns: 35% 65%;
+  grid-template-rows: auto auto;
+  width: 100%;
+}
+
+.total .cart-total {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.total .fr {
+  background-color: #25262b;
+  padding: 12px 0;
+  color: #fff;
+}
+
+.total .price {
+  line-height: 42.68px;
+  font-size: 16px;
+}
+
+.total .price-1 {
+  color: #f66249;
+}
+
+.total .checkout {
+  color: #fff;
+  background-color: #f66249;
+  margin-top: 10px;
+  padding: 20px 0;
+}
+
+.total .checkout a {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.total .checkout a:hover {
+  cursor: pointer;
+}
